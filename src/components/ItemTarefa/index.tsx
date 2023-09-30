@@ -10,21 +10,21 @@ export default function Item({tarefa}:Props) {
 
     return(
         <Center>
-            <Card>
+            <Card bg="#bfcbc2">
                 <CardBody>
 
 
-                <Grid templateColumns='repeat(6, 1fr)' gap={6}>
+                <Grid templateColumns='repeat(5, 1fr)' gap={6} >
 
-                        <GridItem w='100%' h='10' bg='#bcd2ee' colSpan={3}>
-                            <Text>{tarefa}</Text>
+                        <GridItem w='100%' h='10' colSpan={3}>
+                            <Text color="blackAlpha.800" fontWeight="extrabold" justifyContent="center" textAlign="start" fontSize='20px'>{tarefa}</Text>
                         </GridItem>
 
-                        <GridItem colSpan={1.5}> 
+                        <GridItem colSpan={1}> 
                             <ButtonPers label="Pendente" leftIcon={<MdOutlineAddCircleOutline />} bg='#ed7d3a' variant='solid'/>                       
                         </GridItem>
                         
-                        <GridItem colSpan={1.5}> 
+                        <GridItem colSpan={1}> 
                             <ButtonPers label="Excluir" leftIcon={<RiDeleteBin5Fill />} bg='#F30438' variant='solid'/>                       
                         </GridItem>
 
