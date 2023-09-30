@@ -9,7 +9,7 @@ interface Props{
 export default function Item({tarefa}:Props) {
 
     return(
-        <Center>
+        <Center mb="3">
             <Card bg="#bfcbc2">
                 <CardBody>
 

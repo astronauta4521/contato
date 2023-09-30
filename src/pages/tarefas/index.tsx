@@ -23,6 +23,11 @@ export default function Tarefas() {
       </Center>
 
       <Item tarefa="Tarefa 1"/>
+      <Item tarefa="Tarefa 2"/>
+      <Item tarefa="Tarefa 3"/>
+      <Item tarefa="Tarefa 4"/>
+      <Item tarefa="Tarefa 5"/>
+      <Item tarefa="Tarefa 6"/>
 
 
     </Layout>
